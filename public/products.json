@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "code": "prd001",
+      "name": "Medium t-shirt",
+      "description": "A Medium t-shirt",
+      "category": 1,
+      "sub-category": 101,
+      "rate": 10,
+      "active": true
+    }, {
+      "id": 2,
+      "code": "prd002",
+      "name": "Medium Trouser",
+      "description": "A Medium trouser",
+      "category": 1,
+      "sub-category": 102,
+      "rate": 20,
+      "active": true
+    }, {
+      "id": 3,
+      "code": "prd003",
+      "name": "keyboard",
+      "description": "keyboard for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 30,
+      "active": true
+    }, {
+      "id": 4,
+      "code": "prd004",
+      "name": "Mouse",
+      "description": "Mouse for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 10,
+      "active": true
+    }, {
+      "id": 5,
+      "code": "prd004",
+      "name": "Mouse",
+      "description": "Mouse for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 10,
+      "active": true
+    }, {
+      "id": 6,
+      "code": "prd004",
+      "name": "Mouse",
+      "description": "Mouse for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 10,
+      "active": true
+    }, {
+      "id": 7,
+      "code": "prd004",
+      "name": "Mouse",
+      "description": "Mouse for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 10,
+      "active": true
+    }, {
+      "id": 8,
+      "code": "prd004",
+      "name": "Mouse",
+      "description": "Mouse for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 10,
+      "active": true
+    }, {
+      "id": 9,
+      "code": "prd004",
+      "name": "Mouse",
+      "description": "Mouse for desktop PC",
+      "category": 2,
+      "sub-category": 103,
+      "rate": 10,
+      "active": true
+    }
+]
