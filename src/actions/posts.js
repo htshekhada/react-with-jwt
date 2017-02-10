@@ -34,11 +34,13 @@ export const RESET_DELETED_POST = 'RESET_DELETED_POST';
 
 const ROOT_URL = location.href.indexOf('localhost') > 0 ? 'http://localhost:3000/api' : '/api';
 export function fetchPosts() {
-  const request = axios({
-    method: 'get',
-    url: `${ROOT_URL}/posts`,
-    headers: []
-  });
+  // const request = axios({
+  //   method: 'get',
+  //   url: `${ROOT_URL}/posts`,
+  //   headers: []
+  // }); //TODO HS
+
+  const request = axios(`${ROOT_URL}/all-posts.json`);
 
   return {
     type: FETCH_POSTS,
