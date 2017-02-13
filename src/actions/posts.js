@@ -1,4 +1,5 @@
 import axios from 'axios';
+import _ from 'lodash';
 
 //Post list
 export const FETCH_POSTS = 'FETCH_POSTS';
@@ -138,7 +139,23 @@ export function resetDeletedPost() {
 ;
 
 export function fetchPost(id) {
-  const request = axios.get(`${ROOT_URL}/posts/${id}`);
+  //const request = axios.get(`${ROOT_URL}/posts/${id}`);//TODO HS
+
+  //const request = axios(`${ROOT_URL}/all-posts.json`);
+  let request = null;
+  let fp = new fetchPosts();
+
+  request = new Promise(function(resolve, reject) {
+    fp.payload.then((response) => {
+      console.log('Response=' + response);
+      let item = _.filter(response.data, function(item){
+        return item._id === id;
+      });
+      resolve(item);
+    });
+    
+    
+  });
 
   return {
     type: FETCH_POST,

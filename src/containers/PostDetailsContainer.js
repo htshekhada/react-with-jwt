@@ -21,7 +21,7 @@ const mapDispatchToProps = (dispatch) => {
           if (result.payload.response && result.payload.response.status !== 200) {
             dispatch(fetchPostFailure(result.payload.response.data));
           } else {
-            dispatch(fetchPostSuccess(result.payload.data))
+            dispatch(fetchPostSuccess(result.payload[0]))
           }
         })
     },
